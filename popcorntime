@@ -9,7 +9,7 @@ COMMENT="Watch Movies and TV Shows instantly!"
 CURRENT_DIR=$DIR
 EXECUTABLE=$CURRENT_DIR/Popcorn-Time
 ICON_PATH=$CURRENT_DIR/src/app/images/icon.png
-DESTINATION_DIR=/home/$(whoami)/.local/share/applications
+DESTINATION_DIR=/home/$(whoami)/.local/share/apps
 DESKTOP_FILE=popcorn-time.desktop
 uninstall(){
         sudo -p '- [sudo] password: ' rm -fr $DIR 2> /dev/null || true
